@@ -1,0 +1,79 @@
+html {
+    padding-left: 500px;
+    font-family: 'SF Pro Display';
+}
+
+header {
+    background-color: #0C7B93;
+    width: 674px;
+    height: 142px;
+    left: 404px;
+    display: inline-block;
+    
+}
+h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+}
+div {
+    padding-left: 100px;
+    color: #46444A;
+}
+.choice, .choice1 {
+    margin-bottom: 10px;
+}
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 40px;
+}
+
+input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.inputText {
+    height: 30px;
+}
+
+#milk {
+    width: 60px;
+}
+button {
+    margin-top: 40px;
+    margin-left: 246px;
+    margin-bottom: 60px;
+    width: 93px;
+    height: 35px;
+    background: #0C7B93;
+    border-color: #0C7B93;
+    border-radius: 4px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}

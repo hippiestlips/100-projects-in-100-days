@@ -1,0 +1,97 @@
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: SF Pro Text;
+    color: #46444A;
+    height: 75px;
+    box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 51px;
+    height: 51px;
+}
+
+.navbar a{
+    float: right;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #46444A;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    width: 150px;
+    height: 40px;
+    left: 1024px;
+    top: 36px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #46444A;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    padding: 14px 16px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #FFFFFF;
+    margin-left: 20px;
+    min-width: 160px;
+    box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.12), 0px 9px 12px rgba(0, 0, 0, 0.14), 0px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #EFBF3D;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.about {
+    margin-right: 100px;
+}
+
+.fa {
+    margin-left: 5px;
+    color: 3AC2BA;
+}
+

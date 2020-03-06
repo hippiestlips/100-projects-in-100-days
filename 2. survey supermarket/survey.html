@@ -1,0 +1,64 @@
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UFT-8">
+    <title>Survey</title>
+    <link rel="stylesheet", href="survey.css">
+    <script src="survey.js" async></script>
+</head>
+
+<body>
+   <header> 
+        <h6>Survey</h6>
+        <h1>Your last experience in our supermarket</h1>
+   </header>
+
+   <div id="form">
+
+        <p>1. What type of products did you purchase? (multiple choice)</p>
+        <input type="checkbox" name="product1" class="choice1" id="food" value="Food"/><label for="food"> food</label><br>
+        <input type="checkbox" name="product2" class="choice1" id="white_goods" value="White Goods"/><label for="white_goods"> white goods</label><br>
+        <input type="checkbox" name="product3" class="choice1" id="books" value="Books"/><label for="books"> books</label><br>
+        <input type="checkbox" name="product4" class="choice1" id="plants" value="plants"/><label for="plants"> plants</label><br>
+        <input type="checkbox" name="product5" class="choice1" id="cleaning_products" value="Cleaning Products"/><label for="cleaning_products"> cleaning products</label><br>
+        <input type="checkbox" name="product6" class="choice1" id="home_decoration" value="Home Decoration"/><label for="home_decoration"> home decoration</label><br>
+
+        <p>2. How many liters of milk did you buy?</p>
+        <input type="number" class="inputText" id="milk" name="milk" required/><label for="milk"> liters</label>
+
+        <p>3. Share a few words about your experience with our cashier:</p>
+        <input type="text" class="inputText" id="experience" maxlength="100"/>
+
+        <p>4. How much did you pay last time you visited our supermarket?</p>
+        <input type="radio" name="price" class="choice" value="> 99kr" id="price1" /><label for="price1"> > 99kr</label><br>
+        <input type="radio" name="price" class="choice" value="100 - 199 kr" id="price2"/><label for="price2"> 100 - 199 kr</label><br>
+        <input type="radio" name="price" class="choice" value="200 - 299 kr" id="price3"/><label for="price3"> 200 - 299 kr</label><br>
+        <input type="radio" name="price" class="choice" value="300 - 399 kr" id="price4"/><label for="price4"> 300 - 399 kr</label><br>
+        <input type="radio" name="price" class="choice" value="400 - 499 kr" id="price5"/><label for="price5"> 400 - 499 kr</label><br>
+        <input type="radio" name="price" class="choice" value="&gt; 500 kr" id="price6"/><label for="price6"> &gt; 500 kr</label><br>
+
+        <p>5. What is your phone number?</p>
+        <input type="text" class="inputText" id="phone" maxlength="10">
+
+        <p>6. What is your name?</p>
+        <input type="text" class="inputText" id="name">
+
+        <p>7. What is your address?</p>
+        <input type="text" class="inputText" id="address">
+
+        <p>8. What is your gender?</p>
+        <label for="gender"></label>
+        <select id="gender">
+            <option value="Choose a gender">Choose a gender</option>
+            <option value="female">female</option>
+            <option value="male">male</option>
+            <option value="other">other</option>
+        </select>
+        <button onclick="stepTwo()" type="submit" id="Submit">Submit</button>
+    </div>
+
+   <div class="stepTwo"></div>
+    
+    <footer></footer>
+</html>

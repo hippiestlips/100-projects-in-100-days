@@ -1,0 +1,44 @@
+.content {
+    width: 677px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button {
+    background: #EB5757;
+    box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 3px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 125px;
+    width: 428px;
+    height: 147px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    width: 677px;
+    height: 226px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 112px;
+    color: #4F4F4F;
+    display: block;
+}
+
+#left {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

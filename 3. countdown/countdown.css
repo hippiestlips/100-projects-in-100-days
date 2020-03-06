@@ -1,0 +1,64 @@
+.whole {
+    width: 1300px;
+    height: 472px;
+    background: #3E374B;
+    margin: 0 auto;
+}
+
+h1, .p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+.frontEnd {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FF5631;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.fragment {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.numbers {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
+
+.smallText {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FF5631;
+    margin-top: 0em;
+
+}
+
+.countdown {
+    text-align: center;
+}

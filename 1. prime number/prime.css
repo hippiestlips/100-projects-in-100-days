@@ -1,0 +1,39 @@
+body {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    color: #46444A
+}
+p {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #46444A
+}
+input {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    border: 4px solid #e5e5e5;
+    margin-right:30px;
+}
+button {
+    width: 120px;
+    height: 60px;
+    background-color: #65587F;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 18px;
+    border: 4px solid #65587F;
+    padding: 1px;
+    margin: 0 auto;
+    top: -3px;
+    position: relative;
+
+}
