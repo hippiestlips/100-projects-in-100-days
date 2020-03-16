@@ -1,0 +1,178 @@
+.slideContainer {
+    width: 1260px;
+    /* height: 410px; */
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    /* padding-left: 20px; */
+    overflow: hidden;
+    text-align: left;
+    position: relative; 
+} 
+
+.imageContainer {
+    width: 100%;
+    display: flex;
+    height: 415px;
+    /* position: relative; */
+    transition: left 2s;
+    /* -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s; */
+}
+
+.slideGroup {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+
+}
+.fa-angle-left, .fa-angle-right {
+    cursor: pointer;
+    /* position: absolute; */
+    top: 10px;
+    width: auto;
+    margin-top: 10px;
+    padding: 10px;
+    color: #bdbdbd;
+    font-weight: bold;
+    font-size: 18px;
+    /* transition: 0.6s ease; */
+    /* border-radius: 0 3px 3px 0; */
+    user-select: none;
+    border: none;
+}
+.container {
+    position: relative;
+    margin-top: 30px;
+}
+
+.left {
+    position: absolute;
+    top: 25%;
+    left: 13%;
+}
+
+.right {
+    position: absolute;
+    top: 25%;
+    left: 85.3%;
+}
+
+.fa-angle-right { 
+    right: 0;
+    /* border-radius: 3px 0 0 3px; */
+}
+
+.stars {
+    color: #F2C94C;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.season {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#winter {
+    color: #56CCF2;
+}
+
+#summer {
+    color: #EB5757;
+}
+
+#spring {
+    color: #6FCF97;
+}
+
+#fall {
+    color: #F2994A;
+}
+
+#outerspace {
+    color: #2D9CDB;
+}
+
+#backyard {
+    color: #BB6BD9;
+}
+
+.destination {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #676767;
+    margin: 0px;
+}
+
+.price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#seeAll {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+    display: inline;
+    margin: auto;
+    margin-right: 25px;
+    margin-top: 17px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.seeAllGroup {
+    display: inline-block;
+    float: right;
+    margin-right: 250px;
+}
+
+.h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #676767;
+    width: 600px;
+    display: inline;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 240px;
+}
+
+body {
+    margin-top: 50px;
+    /* margin-left: 50px; */
+}
+
+#seeAllButton {
+    /* margin-top: 52px;
+    margin-right: 235px;
+    position: relative;
+    float: right;
+    margin-left: auto; */
+    padding-top: 10px;
+}
+

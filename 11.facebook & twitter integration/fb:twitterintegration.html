@@ -1,0 +1,72 @@
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fb&tweeter integration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="desktop.css">
+    <script src="fb.js" async></script>
+</head>
+
+<body>
+    
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
+    
+    <div class="row">
+        <div class="col-12 col-s-12">
+            <img  id="headerImg" src="header1.jpg"/>
+            <div class="headerText">
+                <h2>This year in</h2>
+                <h1>Modern Museum</h1>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <div id="content" class="row">
+        <div class="content col-8 col-s-12">
+            <div id="article" class="row">
+                <div class="image col-6 col-s-6">
+                    <img  class="img" src="pic1.png">
+                </div> 
+
+                <div class="col-6 col-s-6">
+                    <div class="textbox">
+                        <h3>Urban pain </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div> 
+                </div>        
+            </div>
+           
+            <div id="article" class="row">
+                <div class="image col-6 col-s-6">
+                    <img  class="img" src="pic2.png">
+                </div>
+                <div class="col-6 col-s-6">        
+                    <div class="textbox">
+                        <h3>New take <br>on renaissance?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    </div>  
+                </div>
+            </div>  
+        </div>
+       
+        <div class="sidebar col-4 col-s-12">
+            <div class="media">
+                <div class="fb-page" data-href="https://www.facebook.com/metmuseum/" data-tabs="timeline" data-width="345" data-height="353" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/metmuseum/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/metmuseum/">The Metropolitan Museum of Art, New York</a></blockquote>
+                </div>
+                
+                <a class="twitter-timeline" data-width="345" data-height="353" data-theme="light" href="https://twitter.com/PaulaChitiga?ref_src=twsrc%5Etfw">Tweets by PaulaChitiga</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+                </script>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+</body>
